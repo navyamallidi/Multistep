@@ -1,0 +1,94 @@
+/* General styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Button styles */
+.btn input {
+  visibility: hidden;
+}
+
+.btn label {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  padding: 10px; 
+  margin: 7px; 
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn label:hover {
+  border-color: seagreen;
+}
+
+/* Animation */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Other styles */
+.Opdiv {
+  border: 2px solid grey;
+  padding: 3px;
+  margin: 10px;
+}
+
+
+
+.btns input {
+  visibility: hidden;
+}
+
+.btns label {
+  display: inline-block;
+  width: 500px; 
+  height: 150px; 
+  padding: 10px; 
+  margin: 7px; 
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btns label:hover {
+  border-color: seagreen;
+}
+
+
+.Center {
+  width: 50%;
+  margin: auto;
+}
+
+/* Progress bar */
+.progressbar {
+  width: 75%;
+  height: 3px;
+  background-color: silver;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.progressbar div {
+  width: 20.0%;
+  height: 100%;
+  background-color: seagreen;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
